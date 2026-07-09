@@ -1,0 +1,25 @@
+random_seed: 42
+
+target_column: SalePrice
+
+test_size: 0.2
+
+validation_size: 0.2
+
+cv_folds: 5
+
+model:
+
+  random_forest:
+
+    n_estimators: 500
+
+    max_depth: 15
+
+  xgboost:
+
+    learning_rate: 0.05
+
+    n_estimators: 2000
+
+    max_depth: 6
