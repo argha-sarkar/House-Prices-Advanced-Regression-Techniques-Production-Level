@@ -1,8 +1,8 @@
-🏠 House Price Prediction - Advanced Regression Techniques
+# 🏠 House Price Prediction - Advanced Regression Techniques
 
 Production-Grade Machine Learning Project built using Python, Scikit-Learn, XGBoost, LightGBM, CatBoost, FastAPI, Docker, and modern MLOps practices.
 
-📌 Project Overview
+## 📌 Project Overview
 
 Buying or selling a house is one of the biggest financial decisions people make. Accurately estimating a property's value is important for homeowners, buyers, real estate agents, banks, and insurance companies.
 
@@ -23,7 +23,8 @@ REST API deployment
 Docker containerization
 Unit testing
 Continuous Integration (CI)
-🎯 Objectives
+
+## 🎯 Objectives
 
 The primary objectives of this project are:
 
@@ -35,7 +36,8 @@ Optimize model performance using Optuna.
 Explain model predictions using SHAP.
 Deploy the model as a REST API using FastAPI.
 Follow production-grade software engineering practices.
-📊 Dataset
+
+## 📊 Dataset
 
 Competition
 
@@ -57,10 +59,10 @@ SalePrice
 
 The goal is to predict the final selling price of each house.
 
+## 🏗 Project Structure
 
 ```
 
-🏗 Project Structure
 house-price-prediction/
 │
 ├── app/
@@ -106,7 +108,8 @@ house-price-prediction/
 
 ```
 
-⚙ Technologies Used
+## ⚙ Technologies Used
+
 Programming Language
 Python 3.12
 Data Analysis
@@ -138,10 +141,12 @@ Loguru
 PyYAML
 Testing
 Pytest
-🔄 Machine Learning Workflow
+
+## 🔄 Machine Learning Workflow
 
 The project follows a structured workflow:
 
+```
 Raw Dataset
         ↓
 Data Validation
@@ -163,7 +168,10 @@ Explainability
 REST API
         ↓
 Docker Deployment
-📈 Exploratory Data Analysis
+
+```
+
+## 📈 Exploratory Data Analysis
 
 The EDA phase includes:
 
@@ -186,7 +194,8 @@ OverallQual has a strong positive relationship with SalePrice.
 GrLivArea is highly correlated with house price.
 Some numerical features contain extreme outliers.
 Several categorical variables contain a large number of missing values.
-🛠 Feature Engineering
+
+## 🛠 Feature Engineering
 
 Custom engineered features include:
 
@@ -207,7 +216,8 @@ Log transformation of SalePrice
 Rare category grouping
 Ordinal encoding
 Missing value imputation
-🤖 Models Evaluated
+
+## 🤖 Models Evaluated
 
 Multiple regression models were trained and compared.
 
@@ -225,7 +235,7 @@ CatBoost
 
 The final model is selected based on cross-validation performance and evaluation metrics.
 
-📏 Evaluation Metrics
+## 📏 Evaluation Metrics
 
 The following metrics are used:
 
@@ -235,7 +245,7 @@ R² Score
 
 Cross-validation is used to obtain a more reliable estimate of model performance.
 
-🎯 Hyperparameter Optimization
+## 🎯 Hyperparameter Optimization
 
 Optuna is used instead of GridSearchCV because it explores the search space more efficiently.
 
@@ -246,7 +256,8 @@ K-Fold Cross Validation
 Automatic parameter search
 Optimization history
 Parameter importance analysis
-🔍 Model Explainability
+
+## 🔍 Model Explainability
 
 To better understand model predictions, the project includes:
 
@@ -259,7 +270,7 @@ Error Analysis
 
 These techniques help explain which features influence predictions and identify cases where the model performs poorly.
 
-🌐 REST API
+## 🌐 REST API
 
 The trained pipeline is deployed using FastAPI.
 
@@ -274,7 +285,7 @@ Predicts the selling price of a house.
 
 The API automatically validates incoming requests using Pydantic models.
 
-🐳 Docker
+## 🐳 Docker
 
 The project is fully containerized using Docker.
 
@@ -302,9 +313,11 @@ Model training
 REST API
 
 Run all tests:
-
+```
 pytest
-🚀 Future Improvements
+```
+
+## 🚀 Future Improvements
 
 Potential improvements include:
 
@@ -317,7 +330,8 @@ Prometheus monitoring
 Grafana dashboards
 Cloud deployment on Azure, AWS, and Google Cloud
 Automated retraining pipeline
-📚 What I Learned
+
+## 📚 What I Learned
 
 This project helped me strengthen my understanding of:
 
@@ -330,19 +344,19 @@ REST API development
 Docker containerization
 Testing and continuous integration
 Building reusable and maintainable machine learning systems
-💡 Key Takeaways
+## 💡 Key Takeaways
 
 This project is much more than a Kaggle submission. It demonstrates how to take a machine learning model from raw data to a deployable application using modern engineering practices.
 
 The focus was not only on achieving good predictive performance but also on writing clean, maintainable, and production-ready code.
 
-👤 Author
+## 👤 Author
 
-Argha Sarkar
+### Argha Sarkar
 
 If you found this project useful or have suggestions for improvement, feel free to connect or open an issue. Constructive feedback is always welcome.
 
-⭐ Acknowledgements
+## ⭐ Acknowledgements
 Kaggle for providing the House Prices dataset and competition.
 The open-source Python community for developing the libraries used throughout this project.
 The Scikit-Learn, XGBoost, LightGBM, CatBoost, FastAPI, and Optuna teams for their excellent tools and documentation.
