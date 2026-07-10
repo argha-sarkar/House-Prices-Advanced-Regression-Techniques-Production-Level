@@ -57,6 +57,9 @@ SalePrice
 
 The goal is to predict the final selling price of each house.
 
+
+```
+
 🏗 Project Structure
 house-price-prediction/
 │
@@ -100,6 +103,9 @@ house-price-prediction/
 ├── docker-compose.yml
 ├── requirements.txt
 └── README.md
+
+```
+
 ⚙ Technologies Used
 Programming Language
 Python 3.12
